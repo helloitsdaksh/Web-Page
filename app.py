@@ -28,13 +28,13 @@ st.write('''<div style = "text-align: center"> <b>“Torture the data, and it wi
             )
 # -----Option menu----
 
-selected = option_menu(None, ["About me", "CV", "Contact me"],
+selected = option_menu(None, ["About me", "Resume", "Contact me"],
     icons=['file-person', 'file-earmark', 'envelope-open'],
     menu_icon="cast", default_index=0, orientation="horizontal",
     styles={
            "container": {"padding": "0!important"},
-           "icon": {"font-size": "25px"},
-           "nav-link": {"font-size": "25px", "text-align": "left", "margin": "5px"}
+           "icon": {"font-size": "16px"},
+           "nav-link": {"font-size": "16px", "text-align": "left", "margin": "10px"}
            }
                        )
 
@@ -42,12 +42,12 @@ selected = option_menu(None, ["About me", "CV", "Contact me"],
 if selected == "About me":
 
     with st.container():
-        img_column, right_column = st.columns((1,2))
+        img_column, right_column = st.columns(2)
         with img_column:
             st.markdown('''
             ''')
             st.image(img_profile,
-                     width = 400
+                     width = 325
                      )
         with right_column:
             st.markdown('''
@@ -73,7 +73,7 @@ if selected == "About me":
 
 
 
-if selected == "CV":
+if selected == "Resume":
     with st.container():
     # ---Download---
         st.download_button(label="Download",
