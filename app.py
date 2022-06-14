@@ -5,7 +5,7 @@ from PIL import Image
 import base64
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="My Webpage", page_icon=":innocent:", layout="wide")
+st.set_page_config(page_title="My Webpage", page_icon=":innocent:")
 
 
 # Use local CSS
@@ -47,7 +47,7 @@ if selected == "About me":
             st.markdown('''
             ''')
             st.image(img_profile,
-                     width = 325
+                     width = 300
                      )
         with right_column:
             st.markdown('''
