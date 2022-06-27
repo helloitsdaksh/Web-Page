@@ -55,10 +55,9 @@ if selected == "About me":
                         <p style = "text-align: jusitfied">
                                                 
                         #### ML and Python Developer
-                        I am Student at SRM Univerity pursuing Computer Science Engineering, I love to code and majorly in Python and 
-                        I am also passionate about Machine Learning and would Like to learn and work on projects based on Machine Learning or Deep Learning.
-                        Trying my best to fit in through my skills and my learnings. Always ready to face a Challenge....Try It!!!! 
-                        Programmer at Heart: Coding is my passion. **CARPE DIEM**
+                        
+                        I am a student at SRM Univerity pursuing Computer Science Engineering. I love to code, specifically in Python. I am also passionate about Machine Learning, would like to learn & work on projects based on Machine Learning and/or Deep Learning. Trying my best to fit in through my skills and my learnings. Always ready to face challenges....Try It!!!! 
+                        Programmer at Heart: Coding is my passion.  **CARPE DIEM**
                         </p>
                         
                         #### **WHAT I DO**
