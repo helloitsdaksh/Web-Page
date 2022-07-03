@@ -17,7 +17,7 @@ def local_css(file_name):
 local_css("style/style.css")
 
 # # ---- LOAD ASSETS ----
-img_profile = Image.open("images/profile1.jpeg")
+img_profile = Image.open("images/profile_2.JPG")
 with open("files/RESUME.pdf", "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 
