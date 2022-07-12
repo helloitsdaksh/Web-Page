@@ -165,7 +165,7 @@ if selected == "Resume":
             '''
             ### LEADERSHIP EXPERIENCE
             **Aakash Research Labs,** <br>
-            *Machine Learning Head* <br.
+            *Machine Learning Head* <br>
             *6/2022-Present*
               * Evaluating and Guiding Juniors in the team, also making them work on projects.
               * Uplifting the team with new skills and making them learn new technologies.
