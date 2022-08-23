@@ -5,7 +5,7 @@ from PIL import Image
 import base64
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="My Webpage", page_icon=":innocent:")
+st.set_page_config(page_title="Daksh Patel ", page_icon=":innocent:")
 
 
 # Use local CSS
