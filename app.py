@@ -185,6 +185,17 @@ if selected == "Resume":
             '''
             ,unsafe_allow_html = True
         )
+    # Publication:
+        st.markdown(
+        '''
+        ### PUBLICATIONS
+        **Weather Prediction using ANN**<br>
+        *IJARESM Journal*<br>
+        *July 2022*<br>
+           * A Back Propagation Neural Network Technique predict on weather condition on real time dataset. Basically we calculated the Gradient Descent to minimize error in the Artificial Neural Network.
+        ''',
+        unsafe_allow_html=True
+        )
     # Projects
         st.markdown(
             '''
@@ -216,6 +227,7 @@ if selected == "Resume":
             ''',
             unsafe_allow_html = True
         )
+
     # ----Contact me----
 if selected == "Contact me":
     with st.container():
