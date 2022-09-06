@@ -121,34 +121,21 @@ if selected == "Resume":
               * Creating a script that allows storing the data of a particular company in the database every minute from the API.
               * Tested my Script over various Companies listed in BSE and NSE.
                         
-            **ACM-W,** <br>
-            *Machine Learning Executive* <br>
-            *10/2021-Present*
             
-              * Helping newcomers into the field of Machine Learning as a Mentor.
-              * Trying to find new opportunities under ACM-W chapter
+            **Infigon Futures,** <br>
+            *Python Developer/Data Science Team Lead* <br>
+            *6/2021-11/2021*
+                    
+              * Managed and Analyzed the workflow of the Python Developer Team on the Projects and also lead 3 different teams of new interns.
+              * Managed the Deployment side of the Projects using AWS(ECS).
+              * Implemented my very own Resume-Parser Module using NLP, Data-extracting and many more.
                         
-            **Infigon Futures Mumbai, India**<br>
             *Python Developer Intern*<br> 
             *4/2021- 6/2021*
               
               * Worked on College Prediction Module, Scraped data for the same of more than 200+ colleges.
               * Created A Welcome Email Module for the new users and also a WhatsApp Automator for automating messages.
               * Created and Tested more than 10 APIs for different purposes of the App using Flask and Postman.
-                        
-            **Aakash Research Labs Chennai, India** <br>
-            *ML Intern* <br>
-            *2/2021-5/2022*            
-                      
-              * Made my first ever Deep Learning model of Digit Recognition and deployed it over Heroku using Flask API in an App.
-              * Created my own 3 Layered Neural Network from scratch using NumPy only.                        
-              * Working on Healthcare Project with my teammate at Aakash Research Labs
-                        
-            *Graphic Designer* <br>
-            *3/2020- 3/2021*
-                        
-              * Tasked to make Posters for various events organized by the Organisation
-              * Tasked to create promotional posters and stories for the Organisation.
                         
             **Elixar Tech Chennai, India** <br>
             *Graphic Designer*<br> 
@@ -160,42 +147,6 @@ if selected == "Resume":
             unsafe_allow_html =True
         )
 
-    # Leadership Experience
-        st.markdown(
-            '''
-            ### LEADERSHIP EXPERIENCE
-            **Aakash Research Labs,** <br>
-            *Machine Learning Head* <br>
-            *6/2022-Present*
-              * Evaluating and Guiding Juniors in the team, also making them work on projects.
-              * Uplifting the team with new skills and making them learn new technologies.
-              
-            *Deputy Secretary* <br>
-            *6/2021-5/2022*
-              * Evaluating and Managing the Organisation, Bringing forth an excellent track record towards the Organisation.
-              * Organised event Tekmux for school students of class 12 in the month of August.
-                  
-            **Infigon Futures,** <br>
-            *Python Developer/Data Science Team Lead* <br>
-            *6/2021-11/2021*
-                    
-              * Managed and Analyzed the workflow of the Python Developer Team on the Projects and also lead 3 different teams of new interns.
-              * Managed the Deployment side of the Projects using AWS(ECS).
-              * Implemented my very own Resume-Parser Module using NLP, Data-extracting and many more.
-            '''
-            ,unsafe_allow_html = True
-        )
-    # Publication:
-        st.markdown(
-        '''
-        ### PUBLICATIONS
-        **Weather Prediction using ANN**<br>
-        *IJARESM Journal*<br>
-        *July 2022*<br>
-           * A Back Propagation Neural Network Technique predict on weather condition on real time dataset. Basically we calculated the Gradient Descent to minimize error in the Artificial Neural Network.
-        ''',
-        unsafe_allow_html=True
-        )
     # Projects
         st.markdown(
             '''
@@ -211,10 +162,65 @@ if selected == "Resume":
             
             **Digit-Recognizer**<br>
               * Created an app that detects handwritten digits from 0 to 9 using neural networks; the dataset used was mnist.npz, an official dataset provided by TensorFlow. The model is deployed on Heroku using a FLASK REST API.
+            
+            **Food-101**<br>
+              * Using Transfer Learning tried to classify 101 food dishes and also beat the base paper accuracy which was achieved using Random Forest.
             ''',
             unsafe_allow_html = True
         )
 
+    # Publication:
+        st.markdown(
+            '''
+            ### PUBLICATIONS
+            **Weather Prediction using ANN**<br>
+            *IJARESM Journal*<br>
+            *July 2022*<br>
+               * A Back Propagation Neural Network Technique predict on weather condition on real time dataset. Basically we calculated the Gradient Descent to minimize error in the Artificial Neural Network.
+            ''',
+            unsafe_allow_html=True
+        )
+
+    # Professional Association
+        st.markdown(
+            '''
+            ### PROFESSIONAL ASSOCIATION
+            **ACM-W,** <br>
+            *Machine Learning Executive* <br>
+            *10/2021-Present*
+    
+              * Helping newcomers into the field of Machine Learning as a Mentor.
+              * Also contributing to the community of ACM-W as a hardworking Machine Learning Executive, working on projects based on ML/DL.
+    
+    
+            **Aakash Research Labs,** <br>
+            *Machine Learning Head* <br>
+            *6/2022-Present*
+    
+              * Evaluating and Guiding Juniors in the team, also making them work on projects.
+              * Uplifting the team with new skills and making them learn new technologies.
+    
+            *Deputy Secretary* <br>
+            *6/2021-5/2022*
+    
+              * Evaluating and Managing the Organisation, Bringing forth an excellent track record towards the Organisation.
+              * Organised event Tekmux for school students of class 12 in the month of August.
+    
+            *ML Executive* <br>
+            *2/2021-6/2021*            
+    
+              * Made my first ever Deep Learning model of Digit Recognition and deployed it over Heroku using Flask API in an App.
+              * Created my own 3 Layered Neural Network from scratch using NumPy only.                        
+              * Working on Healthcare Project with my teammate at Aakash Research Labs
+    
+            *Graphic Designer* <br>
+            *3/2020- 3/2021*
+    
+              * Tasked to make Posters for various events organized by the Organisation
+              * Tasked to create promotional posters and stories for the Organisation.    
+           '''
+            , unsafe_allow_html=True
+        )
     # SKILLS and INTERESTS:
         st.markdown(
             '''
