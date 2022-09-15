@@ -104,7 +104,10 @@ if selected == "Resume":
             ### Education 
              **SRM Institute of Science and Technology**, **Chennai, Tamil Nadu** <br>
              Bachelors of Technology in Computer Science, **Cumulative GPA:** 9.57/10.0<br> May 2023
-            * Areas Of Interest: Machine Learning, Computer Vision, Data Science, Research                   
+            * Areas Of Interest: Machine Learning, Computer Vision, Data Science, Research  
+            **Computer Skills:** Python, Docker, AWS(ECS), Flask,
+                        Tensorflow, Numpy, Pandas, Basic OpenCV, Scikit-Learn, Matplotlib.
+                        Linux, Seaborn.                 
             """,
             unsafe_allow_html=True,
         )
@@ -224,12 +227,12 @@ if selected == "Resume":
     # SKILLS and INTERESTS:
         st.markdown(
             '''
-            ### SKILLS & INTERESTS
-            **Computer Skills:** Python, C, C++, Docker, AWS(ECS), Flask,
-                        Tensorflow, Numpy, Pandas, Basic OpenCV, Scikit-Learn, Matplotlib.
-                        Linux, Seaborn.
-            <br>
-            **Interests:** Deep Learning, Image Segmentation, Research
+            ### AWARDS & CERTIFICATIONS
+            * Machine Learning by Stanford University, Coursera
+            * Deep Learning Specialization (5 Courses) by DeepLearning.AI, Coursera
+            * Among top 5 teams in AMU Battlegrounds Hackathon made a Document Enhancer App.
+
+            
             ''',
             unsafe_allow_html = True
         )
